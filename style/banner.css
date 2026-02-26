@@ -1,0 +1,42 @@
+#banner {
+    height: 90vh;
+    background-image: linear-gradient(rgba(93, 85, 19, 0.676), rgb(95, 69, 3));
+}
+
+#text-banner {
+    font-size: 3rem;
+}
+#btn-explore{
+    transition: all .4s ease-in-out;
+}
+
+
+
+#btn-explore:hover{
+    background-color: orange;
+    transform: translate(0px, 5px);
+    color: white;
+    box-shadow: 2px 2px 5px white;
+    transition: all .4s ease-in-out;
+}
+
+/* tablet */
+@media screen and (min-width:577px) and (max-width:992px) {
+    #banner {
+        height: 50vh !important;
+    }
+
+    #text-banner {
+        font-size: 35px;
+    }
+}
+
+/* phone */
+@media screen and (max-width:576px) {
+    #banner-item {
+        height: 50vh !important;
+    }
+    #text-banner{
+    font-size: 3rem;
+}
+}
